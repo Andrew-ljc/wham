@@ -1,2 +1,3 @@
 # wham
-a simple presentation program
+
+multiple histogram + metropolis algorithm to solve the ising model

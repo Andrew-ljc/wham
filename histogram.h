@@ -3,21 +3,18 @@
 #include"status.h"
 #include<map>
 
+struct histogram {
 
-using namespace std;
+  int L;
+  std::vector<float> R;
+  std::map<int, int> N;
+  std::map<int, long double> outP;
+  float K;
 
-struct histogram{
-    
-    int L;
-    vector<float> R;
-    map<int,int> N;
-    map<int,long double> outP;
-    float K;
-    
-    void judge(int E);
-    void getP(float outK);
-    void initial(int l,int begin,int end,int step);
-    
+  void judge(int E);
+  void getP(float outK);
+  void initial(int l, int begin, int end, int step);
+
 };
 
 #endif
